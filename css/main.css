@@ -30,7 +30,6 @@ a{
 	}
 	.header-logo{
 		float: left;
-		padding: 5%;
 		width: 20%;
 		height: 100%;
 		background: grey;
@@ -40,7 +39,7 @@ a{
 	}
 	.header-menu-button{
 		float: left;
-		margin-top:5%;
+		top:5%;
 		padding-top: 1.5%;
 		border-left: 1px solid black;
 		width: 20%;
