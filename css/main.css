@@ -1,0 +1,80 @@
+*, *:after, *:before {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
+}
+a{
+	text-decoration: none;
+}
+@media screen and (min-width: 760px){
+
+	ul {
+	list-style: none;
+	}
+	a {
+	text-decoration: none;
+	outline: none;
+	}
+	.main-div img{
+	display: block;
+	width: 100%;
+	}
+
+	.container{
+		width: 100%;
+	}
+	.header{
+		height: 20%;
+		background: black;
+	}
+	.header-logo{
+		float: left;
+		padding: 5%;
+		width: 20%;
+		height: 100%;
+		background: grey;
+
+	}
+	.header-menu{
+	}
+	.header-menu-button{
+		float: left;
+		margin-top:5%;
+		padding-top: 1.5%;
+		border-left: 1px solid black;
+		width: 20%;
+		height: 30%;
+		background-color: lightgrey;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	.main-div{
+		width: 50%;
+		height: 40%;
+		float: left;
+		background: grey;
+	}
+	.main-div:nth-child(1){
+		background: white;
+	}
+	.main-div:nth-child(4){
+		background: white;
+	}
+	.footer{
+		height: 10%;
+		widows: 100%;
+		background: black;
+	}
+
+}
+.main-div-text{
+		height: 100%;
+		padding-top: 20%;
+		vertical-align: middle;
+		text-align: center;
+		color: white;
+	}
