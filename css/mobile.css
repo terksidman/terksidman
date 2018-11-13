@@ -15,7 +15,7 @@
 		background: black;
 	}
 	.header-cart-icon{
-		position: fixed;
+		position: absolute;
 		top: 0;
 		right: 0;
 		width: 20%;
@@ -113,6 +113,16 @@
 		border: 5px solid white;
 	}
 
+	.left-arrow{
+		position: fixed;
+		top: 23%;
+    	left: 6%;
+	}
+	.right-arrow{
+		position: fixed;
+		top: 23%;
+    	right: 6%;
+	}
 	/*О НАС--------------------------------*/
 	.aboutus-main{
 		width: 100%;

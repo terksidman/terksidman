@@ -5,13 +5,16 @@
 	var url = "background: url(pictures/";
 	var end = "";
 	var obj = document.getElementById("img");
+
 	window.onload = function autoscroll(){
 		
 	  	if (to < mas.length-1)  to++ 
-	   	else
-	     to = 0;
-	     obj.style = url + mas[to]+'';
-	     obj.style.backgroundSize = "100%";
+	  	else
+	   	to = 0;
+	    obj.style = url + mas[to]+'';
+	    obj.style.backgroundSize = "100%";
+	    setTimeout(autoscroll, 4000);
+		
 	}
 	function right_arrow() // Открытие следующей картинки(движение вправо)
 	{ 
@@ -29,6 +32,7 @@
 	if (to > 0) to--;
 	  else
 	    to = mas.length-1;
-	    obj.style = mas[to];	  			 
+	    obj.style = url + mas[to]+'';
+	     obj.style.backgroundSize = "100%";	  			 
 	}
 }
