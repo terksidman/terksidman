@@ -80,10 +80,7 @@
 		background: white;
 		margin-top: 18%;
 	}
-	/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
-	/*#menu.active {
-		max-height: 123px;
-	}*/
+	
 
 	.header-menu-button{
 		width: 100%;
@@ -114,5 +111,39 @@
 		transition: 0.5s;
 		opacity: 50%;
 		border: 5px solid white;
+	}
+
+	/*О НАС--------------------------------*/
+	.aboutus-main{
+		width: 100%;
+		background: white;
+	}
+	.aboutus-main-h1{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 90%;
+		height: 6%;
+		background:lightgrey;
+	}
+	.aboutus-main-portrait{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 60%;
+		height: 40%;
+		background: lightgrey;
+	}
+	.aboutus-main-textarea{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 80%;
+		height: 40%;
+		background: grey;
+	}
+	.footer{
+		/*margin-top: 34%;*/
+		height: 10%;
+		width:100%;
+		margin-top: 2%;
+		background: black;
 	}
 }
