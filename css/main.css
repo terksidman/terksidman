@@ -84,4 +84,9 @@ a{
 		vertical-align: middle;
 		text-align: center;
 		color: white;
-	}
+}
+div a{
+	display: block;
+	height: 100%;
+	text-align: center;
+}
