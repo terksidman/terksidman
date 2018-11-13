@@ -1,8 +1,26 @@
 
 @media screen and (max-width: 760px) {
 	.header-logo{
-		float: left;
 		display: none;
+	}
+	.header-cart-logo-mobile{
+		width: 20%;
+		height: 100%;
+		margin: 0 auto;
+		background: lightgrey;
+	}
+	.header-cart{
+		width: 100%;
+		height: 10%;
+		background: black;
+	}
+	.header-cart-icon{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 20%;
+		height: 10%;
+		background: lightgrey;
 	}
 	.header-menu{
 		top:-160px;
@@ -23,13 +41,14 @@
 	}
 	.nav-toggle {
 		top:0%;
-		height: 50px;
+		height: 10%;
 		position: fixed;
-		width: 15%;
-		float: right;
+		margin-left: 5%;
+		width: 20%;
+		float: left;
 		cursor: pointer;
 	}
-	.nav-toggle span {
+	/*.nav-toggle span {
 		display: block;
 		position: absolute;
 		top: 19px;
@@ -37,8 +56,8 @@
 		right: 8px;
 		height: 2px;
 		background: white;
-	}
-	.nav-toggle span:before, .nav-toggle span:after {
+	}*/
+	/*.nav-toggle span:before, .nav-toggle span:after {
 		content: "";
 		position: absolute;
 		display: block;
@@ -52,6 +71,14 @@
 	}
 	.nav-toggle span:after {
 		bottom: -10px;
+	}*/
+	.nav-toggle-line{
+		content: "";
+		display: block;
+		width: 80%;
+		height: 5%;
+		background: white;
+		margin-top: 18%;
 	}
 	/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
 	/*#menu.active {
@@ -69,15 +96,18 @@
 
 	.main-div{
 		widows: 100%;
-		height: 25%;
+		height: 30%;
 		background: black;
 		text-align: center;
 	}
-	.main-div:first-child{
-		
+	.main-div-galery{
+		width: 100%;
+		height: 30%;
+		background: grey;
 	}
 	.main-div:nth-child(2n){
-		background: grey;
+		background: white;
+		color: black;
 	}
 	
 	.main-div-text:active{
