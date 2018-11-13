@@ -72,11 +72,39 @@ a{
 		background: lightgrey;
 	}
 	.footer{
+		/*margin-top: 34%;*/
 		height: 10%;
-		widows: 100%;
+		width:100%;
+		margin-top: 1%;
 		background: black;
 	}
-
+	/*О НАС--------------------------------*/
+	.aboutus-main{
+		width: 100%;
+		background: white;
+	}
+	.aboutus-main-h1{
+		margin: 0 auto;
+		margin-top: 1%;
+		width: 40%;
+		height: 10%;
+		background:lightgrey;
+	}
+	.aboutus-main-portrait{
+		margin: 0 auto;
+		margin-top: 1%;
+		width: 60%;
+		height: 60%;
+		background: lightgrey;
+	}
+	.aboutus-main-textarea{
+		margin: 0 auto;
+		margin-top: 1%;
+		width: 80%;
+		height: 80%;
+		background: grey;
+		
+	}
 }
 .main-div-text{
 		height: 100%;
