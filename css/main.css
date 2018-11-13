@@ -35,12 +35,15 @@ a{
 		background: grey;
 
 	}
-	.header-menu{
+	.header-cart{
+		width: 80%;
+		height: 70%;
 	}
+
 	.header-menu-button{
 		float: left;
 		top:5%;
-		padding-top: 1.5%;
+
 		border-left: 1px solid black;
 		width: 20%;
 		height: 30%;
@@ -57,11 +60,16 @@ a{
 		float: left;
 		background: grey;
 	}
+	.main-div-galery{
+		width: 100%;
+		height: 40%;
+		color:black;
+	}
 	.main-div:nth-child(1){
 		background: white;
 	}
 	.main-div:nth-child(4){
-		background: white;
+		background: lightgrey;
 	}
 	.footer{
 		height: 10%;
