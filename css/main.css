@@ -25,7 +25,7 @@ a{
 		width: 100%;
 	}
 	.header{
-		height: 10%;
+		height: 20%;
 		background: black;
 	}
 	.header-logo{
@@ -65,7 +65,7 @@ a{
 
 	.main-div{
 		width: 50%;
-		height: 40%;
+		height: 30%;
 		float: left;
 		background: grey;
 	}
