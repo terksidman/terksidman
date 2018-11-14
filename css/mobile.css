@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 760px) {
+	.container{
+		overflow: hidden;
+	}
 	.header-logo{
 		display: none;
 	}
@@ -23,6 +26,7 @@
 		background: lightgrey;
 	}
 	.header-menu{
+		z-index: 10;
 		top:-160px;
 		width: 100%;
 		position: fixed;
@@ -37,41 +41,19 @@
 		height: 100%;
 		top: 0px;
 		position: fixed;
+		z-index: 10;
 		background: red;
 	}
 	.nav-toggle {
 		top:0%;
 		height: 10%;
-		position: fixed;
+		position: absolute;
 		margin-left: 5%;
 		width: 20%;
 		float: left;
 		cursor: pointer;
 	}
-	/*.nav-toggle span {
-		display: block;
-		position: absolute;
-		top: 19px;
-		left: 8px;
-		right: 8px;
-		height: 2px;
-		background: white;
-	}*/
-	/*.nav-toggle span:before, .nav-toggle span:after {
-		content: "";
-		position: absolute;
-		display: block;
-		left: 0;
-		width: 100%;
-		height: 3px;
-		background: white;
-	}
-	.nav-toggle span:before {
-		top: -10px;
-	}
-	.nav-toggle span:after {
-		bottom: -10px;
-	}*/
+
 	.nav-toggle-line{
 		content: "";
 		display: block;
@@ -83,6 +65,7 @@
 	
 
 	.header-menu-button{
+		
 		width: 100%;
 		height: 40px;
 		background: lightgrey;
@@ -92,15 +75,23 @@
 	}
 
 	.main-div{
-		widows: 100%;
+		width: 100%;
 		height: 30%;
 		background: black;
 		text-align: center;
 	}
+	.main-div-galery-wraper{
+		width: 100%;
+		height: 30%;
+	}
 	.main-div-galery{
+		z-index: 0;
 		width: 100%;
 		height: 30%;
 		background: grey;
+		position: absolute;
+		display: none;
+		top: 10%;
 	}
 	.main-div:nth-child(2n){
 		background: white;
@@ -115,13 +106,25 @@
 
 	.left-arrow{
 		position: fixed;
+		width: 5%;
 		top: 23%;
     	left: 6%;
 	}
 	.right-arrow{
 		position: fixed;
+		width: 5%;
 		top: 23%;
     	right: 6%;
+	}
+	.left-arrow:active{
+		transition: 0.2s;
+		top: 23.5%;
+		width: 4%;
+	}
+	.right-arrow:active{
+		transition: 0.2s;
+		top: 23.5%;
+		width: 4%;
 	}
 	/*О НАС--------------------------------*/
 	.aboutus-main{
