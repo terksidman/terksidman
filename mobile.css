@@ -1,0 +1,162 @@
+
+@media screen and (max-width: 760px) {
+	.container{
+		overflow: hidden;
+	}
+	.header-logo{
+		display: none;
+	}
+	.header-cart-logo-mobile{
+		width: 20%;
+		height: 100%;
+		margin: 0 auto;
+		background: lightgrey;
+	}
+	.header-cart{
+		width: 100%;
+		height: 10%;
+		background: black;
+	}
+	.header-cart-icon{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 20%;
+		height: 10%;
+		background: lightgrey;
+	}
+	.header-menu{
+		z-index: 10;
+		top:-160px;
+		width: 100%;
+		position: fixed;
+	}
+	#menu.active{
+		transition: 1s;
+		display: block;
+	}
+	.header-menu-hider{
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		position: fixed;
+		z-index: 10;
+		background: red;
+	}
+	.nav-toggle {
+		top:0%;
+		height: 10%;
+		position: absolute;
+		margin-left: 5%;
+		width: 20%;
+		float: left;
+		cursor: pointer;
+	}
+
+	.nav-toggle-line{
+		content: "";
+		display: block;
+		width: 80%;
+		height: 5%;
+		background: white;
+		margin-top: 18%;
+	}
+	
+
+	.header-menu-button{
+		
+		width: 100%;
+		height: 40px;
+		background: lightgrey;
+		text-align: center;
+		border-bottom: 1px solid grey;
+
+	}
+
+	.main-div{
+		width: 100%;
+		height: 30%;
+		background: black;
+		text-align: center;
+	}
+	.main-div-galery-wraper{
+		width: 100%;
+		height: 30%;
+	}
+	.main-div-galery{
+		z-index: 0;
+		width: 100%;
+		height: 30%;
+		background: grey;
+		position: absolute;
+		display: none;
+		top: 10%;
+	}
+	.main-div:nth-child(2n){
+		background: white;
+		color: black;
+	}
+	
+	.main-div-text:active{
+		transition: 0.5s;
+		opacity: 50%;
+		border: 5px solid white;
+	}
+
+	.left-arrow{
+		position: fixed;
+		width: 5%;
+		top: 23%;
+    	left: 6%;
+	}
+	.right-arrow{
+		position: fixed;
+		width: 5%;
+		top: 23%;
+    	right: 6%;
+	}
+	.left-arrow:active{
+		transition: 0.2s;
+		top: 23.5%;
+		width: 4%;
+	}
+	.right-arrow:active{
+		transition: 0.2s;
+		top: 23.5%;
+		width: 4%;
+	}
+	/*О НАС--------------------------------*/
+	.aboutus-main{
+		width: 100%;
+		background: white;
+	}
+	.aboutus-main-h1{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 90%;
+		height: 6%;
+		background:lightgrey;
+	}
+	.aboutus-main-portrait{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 60%;
+		height: 40%;
+		background: lightgrey;
+	}
+	.aboutus-main-textarea{
+		margin: 0 auto;
+		margin-top: 2%;
+		width: 80%;
+		height: 40%;
+		background: grey;
+	}
+	.footer{
+		/*margin-top: 34%;*/
+		height: 10%;
+		width:100%;
+		margin-top: 2%;
+		background: black;
+	}
+}
