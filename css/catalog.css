@@ -38,7 +38,7 @@
 	}
 	.arrow-box-left:active .left-arrow{
 		transition: 0.2s;
-		top: 60.5%;
+		top: 50.5%;
 		width: 49%;
 	}	
 	.arrow-box-right:active .right-arrow{
@@ -49,7 +49,7 @@
 	.left-arrow{
 		position: absolute;
 		width: 50%;
-		top: 60%;
+		top: 50%;
     	left: 25%;
     	cursor: pointer;
 	}
@@ -62,7 +62,7 @@
 	}
 	.left-arrow:active{
 		transition: 0.2s;
-		top: 60.5%;
+		top: 50.5%;
 		width: 49%;
 	}
 	.right-arrow:active{
@@ -72,7 +72,7 @@
 	}
 /*	---------------------SEX---------------------
 */	.sex-window{
-		width: 80%;
+		width: 100%;
 		height: 80%;
 		margin: 0 auto;
 		cursor: pointer;
@@ -91,7 +91,7 @@
 	}
 /*	------------------BELTS---------------------*/
 	.male-belts{
-		width: 80%;
+		width: 90%;
 		height: 80%;
 		margin: 0 auto;
 		background: grey;
@@ -101,7 +101,7 @@
 		display: none;
 	}
 	.female-belts{
-		width: 80%;
+		width: 90%;
 		height: 80%;
 		margin: 0 auto;
 		background: grey;
