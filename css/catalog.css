@@ -1,0 +1,38 @@
+@media screen and (min-width: 760px){
+	.sex-window{
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
+	}
+	.sex-window-male{
+		width: 50%;
+		height: 100%;
+		float: left;
+		background: grey;
+	}
+	.sex-window-female{
+		width: 50%;
+		height: 100%;
+		float: left;
+		background: lightgrey;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.sex-window{
+		width: 100%;
+		height: 90%;
+		margin: 0 auto;
+	}
+	.sex-window-male{
+		width: 100%;
+		height: 50%;
+		background: grey;
+	}
+	.sex-window-female{
+		width: 100%;
+		height: 50%;
+		background: lightgrey;
+	}
+	
+	}

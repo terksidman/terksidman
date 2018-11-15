@@ -1,0 +1,104 @@
+<!DOCTYPE "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+     	<title>Mellivora Belts</title>
+     	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+      	<link rel="stylesheet" href="css/main.css">
+      	<link rel="stylesheet" href="css/mobile.css">
+      	<link rel="stylesheet" href="css/catalog.css">
+   
+      	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> -->
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="header-logo">logo
+					<img src="">
+				</div>
+				<div class="header-cart">
+					<div class="header-cart-logo-mobile">logo
+						<img src="">
+					</div>
+					<div class="header-cart-icon">cart
+						
+					</div>
+
+				</div>
+				<ul class="header-menu" id="menu">
+					<li class="header-menu-button"><a href="https://terksidman.github.io/aboutus.html">О нас</a></li>
+					<li class="header-menu-button"><a href="https://terksidman.github.io/catalog.html">Каталог</a></li>
+					<li class="header-menu-button"><a href="https://terksidman.github.io/contacts.html">Контакты</a></li>
+					<li class="header-menu-button"><a href="https://terksidman.github.io/faq.html">ОТЗЫВЫ</a></li>
+				</ul>
+
+				<div class="nav-toggle">
+					<span class="nav-toggle-line"></span>
+					<span class="nav-toggle-line"></span>
+					<span class="nav-toggle-line"></span>
+				</div>
+				<div class="header-menu-hider"></div>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="container">
+				<div class="sex-window">
+					<div class="sex-window-male">Мужские
+					
+					</div>
+					<div class="sex-window-female">женские
+
+					</div>
+				</div>
+				
+			</div>			
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<span></span>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var check = 0;
+		$('.header-menu-hider').fadeOut(1);
+		$('.nav-toggle').on('click', function(){
+			// $('#menu').slideToggle('400');
+			
+			
+			if (check == 0) {
+				$('.header-menu').css('top','0%');
+				$('.nav-toggle').fadeTo(100, 0);
+				$('.header-menu-hider').css('top','160px');
+				$('.header-menu-hider').fadeTo(400,0.5);
+				check = 1;
+			}
+			else{
+				$('.header-menu').css('top','-160px');
+				$('.nav-toggle').css('display','block');
+				$('.header-menu-hider').css('display','none');
+				check = 0;
+
+			}
+		});
+		$('.header-menu-hider').on('click', function(){
+			if(check == 1){
+				$('.header-menu').css('top','-160px');
+				$('.nav-toggle').fadeTo(400, 1);
+				$('.header-menu-hider').css('top','0');
+				$('.header-menu-hider').fadeTo(100, 0);
+				$('.header-menu-hider').css('display','none');
+				check = 0;
+			}
+		});
+		
+	</script>
+	<script src="js/galery.js"></script>
+</html>
