@@ -113,6 +113,13 @@
 }
 
 @media screen and (max-width: 760px) {
+	/*	---------------------SEX---------------------
+*/
+	.right-arrow{
+		position: absolute;
+		width: 0%;
+		top: 0%;
+	}	
 	.sex-window{
 		width: 100%;
 		height: 90%;
@@ -121,15 +128,78 @@
 	}
 	.sex-window-male{
 		width: 100%;
-		height: 50%;
+		height: 45%;
 		background: grey;
+		float: right;
+		position: absolute;
+		top:10%;
 		
 	}
+	
 	.sex-window-female{
 		width: 100%;
-		height: 50%;
+		height: 45%;
 		background: lightgrey;
+		float: right;
+		position: absolute;
+		top: 55%;
 
 	}
-	
+
+	/*---------------------ARROWS---------------------*/
+	.arrow-box{
+		display: none;
 	}
+	.arrow-box-left{
+		width: 15%;
+		height: 90%;
+		position: absolute;
+		top: 10%;
+		left: 0;
+	}
+	.arrow-box:active {
+		background: lightgrey;
+		transition: 0.2s;
+	}
+	.arrow-box-left:active .left-arrow{
+		transition: 0.2s;
+		top: 50.5%;
+		width: 70%;
+	}	
+
+	.left-arrow{
+		position: absolute;
+		width: 80%;
+    	top: 50%;
+    	left: 10%;
+    	cursor: pointer;
+	}
+
+	.left-arrow:active{
+		transition: 0.2s;
+		top: 50.5%;
+		width: 70%;
+	}
+/*	------------------BELTS---------------------*/
+	.male-belts{
+		width: 85%;
+		height: 90%;
+		margin: 0 auto;
+		background: grey;
+		position: absolute;
+		top: 10%;
+		left: 15%;
+		display: none;
+	}
+	.female-belts{
+		width: 85%;
+		height: 90%;
+		margin: 0 auto;
+		background: grey;
+		position: absolute;
+		top: 10%;
+		left: 15%;
+		display: none;
+	}
+
+}
