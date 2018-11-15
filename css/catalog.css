@@ -1,4 +1,5 @@
 @media screen and (min-width: 760px){
+	/*---------------------ARROWS---------------------*/
 	.arrow-box{
 		display: none;
 	}
@@ -60,7 +61,8 @@
 		top: 60.5%;
 		width: 49%;
 	}
-	.sex-window{
+/*	---------------------SEX---------------------
+*/	.sex-window{
 		width: 80%;
 		height: 80%;
 		margin: 0 auto;
@@ -78,15 +80,26 @@
 		float: left;
 		background: lightgrey;
 	}
+/*	------------------BELTS---------------------*/
 	.male-belts{
 		width: 80%;
 		height: 80%;
 		margin: 0 auto;
+		background: grey;
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		display: none;
 	}
 	.female-belts{
 		width: 80%;
 		height: 80%;
 		margin: 0 auto;
+		background: grey;
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		display: none;
 	}
 }
 
