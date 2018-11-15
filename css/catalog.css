@@ -1,8 +1,70 @@
 @media screen and (min-width: 760px){
+	.arrow-box{
+		display: none;
+	}
+	.arrow-box-left{
+		width: 10%;
+		height: 80%;
+		position: absolute;
+		top: 20%;
+		left: 0;
+	}
+	.arrow-box-right{
+		width: 10%;
+		height: 80%;
+		position: absolute;
+		top: 20%;
+		right: 0;
+	}
+	.arrow-box:hover {
+		background: grey;
+		cursor: pointer;
+		transition: 0.2s;
+	}
+	.arrow-box:active {
+		background: lightgrey;
+		cursor: pointer;
+		transition: 0.2s;
+	}
+	.arrow-box-left:active .left-arrow{
+		transition: 0.2s;
+		top: 60.5%;
+		width: 49%;
+	}	
+	.arrow-box-right:active .right-arrow{
+		transition: 0.2s;
+		top: 60.5%;
+		width: 49%;
+	}
+	.left-arrow{
+		position: absolute;
+		width: 50%;
+		top: 60%;
+    	left: 25%;
+    	cursor: pointer;
+	}
+	.right-arrow{
+		position: absolute;
+		width: 50%;
+		top: 60%;
+    	right: 25%;
+    	cursor: pointer;
+	}
+	.left-arrow:active{
+		transition: 0.2s;
+		top: 60.5%;
+		width: 49%;
+	}
+	.right-arrow:active{
+		transition: 0.2s;
+		top: 60.5%;
+		width: 49%;
+	}
 	.sex-window{
 		width: 80%;
 		height: 80%;
 		margin: 0 auto;
+		cursor: pointer;
 	}
 	.sex-window-male{
 		width: 50%;
@@ -15,6 +77,16 @@
 		height: 100%;
 		float: left;
 		background: lightgrey;
+	}
+	.male-belts{
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
+	}
+	.female-belts{
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
 	}
 }
 
@@ -23,16 +95,19 @@
 		width: 100%;
 		height: 90%;
 		margin: 0 auto;
+
 	}
 	.sex-window-male{
 		width: 100%;
 		height: 50%;
 		background: grey;
+		
 	}
 	.sex-window-female{
 		width: 100%;
 		height: 50%;
 		background: lightgrey;
+
 	}
 	
 	}

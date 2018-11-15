@@ -18,7 +18,7 @@
 	<body>
 		<div class="header">
 			<div class="container">
-				<div class="header-logo">logo
+				<div class="header-logo"><a href="index.html">LOGO</a>
 					<img src="">
 				</div>
 				<div class="header-cart">
@@ -31,10 +31,10 @@
 
 				</div>
 				<ul class="header-menu" id="menu">
-					<li class="header-menu-button"><a href="https://terksidman.github.io/aboutus.html">О нас</a></li>
-					<li class="header-menu-button"><a href="https://terksidman.github.io/catalog.html">Каталог</a></li>
-					<li class="header-menu-button"><a href="https://terksidman.github.io/contacts.html">Контакты</a></li>
-					<li class="header-menu-button"><a href="https://terksidman.github.io/faq.html">ОТЗЫВЫ</a></li>
+					<li class="header-menu-button"><a href="aboutus.html">О нас</a></li>
+					<li class="header-menu-button"><a href="catalog.html">Каталог</a></li>
+					<li class="header-menu-button"><a href="contacts.html">Контакты</a></li>
+					<li class="header-menu-button"><a href="faq.html">ОТЗЫВЫ</a></li>
 				</ul>
 
 				<div class="nav-toggle">
@@ -48,15 +48,32 @@
 
 		<div class="main">
 			<div class="container">
-				<div class="sex-window">
-					<div class="sex-window-male">Мужские
+			<!-- ARROWS -->
+				<div class="arrow-box arrow-box-left">
+					<img src = "pictures/left_arrow.png" class="left-arrow"  onClick = "javascript: left_arrow()" /> 
+				</div>
+				<div class="arrow-box arrow-box-right">
+					<img src = "pictures/right_arrow.png" class="right-arrow"  onClick = "javascript: right_arrow()" />	
+				</div>
+				
+				
+				<!-- SEX CHANGING -->
+				<div class="sex-window" id="sex">
+					<div class="sex-window-male" id="male">Мужские
 					
 					</div>
-					<div class="sex-window-female">женские
+					<div class="sex-window-female" id="female">женские
 
 					</div>
 				</div>
-				
+				<!-- BELTS GALERY FOR SEX -->
+				<div class="male-belts" id="male-belts">
+					
+				</div>
+				<div class="female-belts" id="female-belts">
+					
+				</div>
+				<!-- ANY BELTS -->
 			</div>			
 		</div>
 
@@ -100,5 +117,5 @@
 		});
 		
 	</script>
-	<script src="js/galery.js"></script>
+	<script src="js/catalog.js"></script>
 </html>

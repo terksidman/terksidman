@@ -4,8 +4,9 @@ padding: 0;
 margin: 0;
 transition: .5s ease-in-out; /* добавим плавность переходов для всех элементов страницы*/
 }
-a{
+a {
 	text-decoration: none;
+	outline: none;
 }
 body{
 	background: black;
@@ -15,10 +16,7 @@ body{
 	ul {
 	list-style: none;
 	}
-	a {
-	text-decoration: none;
-	outline: none;
-	}
+	
 	.main-div img{
 	display: block;
 	width: 100%;
