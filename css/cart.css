@@ -1,0 +1,52 @@
+@media screen and (min-width: 760px){
+	.cart{
+		width: 100%;
+		min-height: 80%;
+		background: lightgrey;
+	}
+	.cart-h1{
+		margin:0 auto;
+		margin-top: 1%;
+		width: 30%;
+		height: 5%;
+		text-align: center;
+		background: grey;
+	}
+	.cart-box{
+		margin:0 auto;
+		margin-top: 3%;
+		width: 50%;
+		min-height: 40%;
+		background: white;
+	}
+	.cart-sum{
+		width:50%;
+		height: 5%;
+		margin:0 auto;
+		margin-top: 1%;
+		background: grey;
+	}
+	.cart-sum-text{
+		width: 30%;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+	.cart-sum-number{
+		width: 30%;
+		float: right;
+		height: 100%;
+		text-align: center;
+	}
+	.cart-confirm{
+		margin-top: 1%;
+		margin-left: 55%;
+		width: 20%;
+		height: 5%;
+		background: grey;
+	}
+}
+
+@media screen and (max-width: 760px){
+
+}
