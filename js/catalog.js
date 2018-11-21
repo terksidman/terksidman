@@ -56,5 +56,15 @@
 		nextpage=22;
 
 	});
+	function male_belts(){
+		$('#male-purchase').fadeTo(100, 0.5);
+		$('.male-purchase-window').fadeTo(100, 1);
+	}
+	$('#male-purchase').on('click',function(){
+		$('#male-purchase').fadeTo(100,0);
+		$('#male-purchase').css('display','none');
+		$('.male-purchase-window').fadeTo(100,0);
+		$('.male-purchase-window').css('display','none');
+	});
 
 }
