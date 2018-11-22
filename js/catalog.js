@@ -66,5 +66,10 @@
 		$('.male-purchase-window').fadeTo(100,0);
 		$('.male-purchase-window').css('display','none');
 	});
-
+	$('.male-purchase-window-exit').on('click',function(){
+		$('#male-purchase').fadeTo(200,0);
+		$('#male-purchase').css('display','none');
+		$('.male-purchase-window').fadeTo(200,0);
+		$('.male-purchase-window').css('display','none');
+	});
 }

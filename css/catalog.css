@@ -148,13 +148,13 @@
 		width: 90%;
 		height: 90%;
 		margin-left: 5%;
-		margin-top: -10%;
+		top:5%;
 		background: white;
 		z-index: 100;
 	}
 	.male-purchase-column{
 		width: 100%;
-		height: 85%;
+		height: 80%;
 		margin-top: 2.5%;
 	}
 	.male-purchase-column-1{
@@ -178,13 +178,53 @@
 		margin-left:5%;
 		background: lightgrey;
 	}
+	.column-item{
+		width: 100%;
+		height: 10%;
+		margin-top: 10px;
+		background: grey;
+	}
+	.column-item-toggle{
+		margin:0 auto;
+		width: 50%;
+		height:100%;
+		border-radius:0.5em;
+		border:1px solid lightgrey;
+		background: white;
+	}
+	.column-item-toggle:hover{
+		cursor: pointer;
+		box-shadow: 0 0.2em 0.2em grey;
+		transition: 0.2s;
+	}
+	.column-item-toggle:active{
+		background: lightgrey;
+		transition: 0.1s;	
+	}
+	.price{
+		vertical-align: middle;
+	}
+
 	.male-purchase-confirm{
-		width: 20%;
+		width: 40%;
 		height: 5%;
 		margin: 0 auto;
 		margin-top:2.5%; 
 		background: grey;
 	}
+	.male-purchase-confirm-sum{
+		float: left;
+		height: 100%;
+		width: 80%
+	}
+	.male-purchase-confirm-button{
+		float: left;
+		width: 20%;
+		height: 100%;
+		background: black;
+		color:white;
+	}
+
 }
 
 @media screen and (max-width: 760px) {
@@ -276,5 +316,91 @@
 		left: 15%;
 		display: none;
 	}
+	.belts-button{
+		width:20%;
+		height: 10%;
+		margin:0 auto;
+		margin-top: 1%;
+		background: black;
+		color: white;
+		text-align: center;
+	}
+	/*	------------------male---------------------*/
+	.male-purchase-wrapper{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 100%;
+		background: red;
+		display: none;
+		z-index: 99
+	}
+	.male-purchase-wrapper:hover{
+		cursor: pointer;
+	}
+	.male-purchase-window{
+		display: none;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top:0;
+		background: white;
+		z-index: 100;
+	}
+	.male-purchase-window-exit{
+		width: 10%;
+		height: 5%;
+		margin-top: 1%;
+		margin-left: 89%;
+		background: black;
+	}
+	.male-purchase-window-exit:active{
 
+	}
+	.male-purchase-column{
+		width: 100%;
+		height: 85%;
+		margin-top: 2.5%;
+	}
+	.male-purchase-column-1{
+		float: left;
+		width: 45%;
+		height: 100%;
+		margin-left:5%;
+		background: lightgrey;
+	}
+	.male-purchase-column-2{
+		float: left;
+		width: 10%;
+		height: 100%;
+		margin-left:5%;
+		background: lightgrey;
+	}
+	.male-purchase-column-3{
+		float: left;
+		width: 25%;
+		height: 100%;
+		margin-left:5%;
+		background: lightgrey;
+	}
+	.male-purchase-confirm{
+		width: 60%;
+		height: 7%;
+		margin: 0 auto;
+		margin-top:1.5%; 
+		background: grey;
+	}
+	.male-purchase-confirm-sum{
+		float: left;
+		height: 100%;
+		width: 50%;
+	}
+	.male-purchase-confirm-button{
+		float: left;
+		width: 50%;
+		height: 100%;
+		background: black;
+		color:white;
+	}
 }
