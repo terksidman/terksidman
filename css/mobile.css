@@ -113,13 +113,13 @@
 	}
 
 	.left-arrow{
-		position: fixed;
+		position: absolute;
 		width: 5%;
 		top: 23%;
     	left: 6%;
 	}
 	.right-arrow{
-		position: fixed;
+		position: absolute;
 		width: 5%;
 		top: 23%;
     	right: 6%;
