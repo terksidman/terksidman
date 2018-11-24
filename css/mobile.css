@@ -3,14 +3,22 @@
 	.container{
 		overflow: hidden;
 	}
+	.header{
+		background: #1F1F1E;
+		border-bottom:4px solid #FCFCFC;
+		color: #FCFCFC;
+	}
 	.header-logo{
 		display: none;
 	}
-	.header-cart-logo-mobile{
+	.header-logo-mobile-img{
+		width: 100%;
+	}
+
+	.header-logo-mobile{
 		width: 20%;
 		height: 100%;
 		margin: 0 auto;
-		background: lightgrey;
 	}
 	.header-cart{
 		width: 100%;
@@ -42,7 +50,7 @@
 		top: 0px;
 		position: fixed;
 		z-index: 10;
-		background: red;
+		background: #CD362A;
 	}
 	.nav-toggle {
 		top:0%;
@@ -68,9 +76,9 @@
 		
 		width: 100%;
 		height: 40px;
-		background: lightgrey;
+		background: #1F1F1E;
 		text-align: center;
-		border-bottom: 1px solid grey;
+		border-bottom: 1px solid #FCFCFC;
 
 	}
 
@@ -129,34 +137,31 @@
 	/*О НАС--------------------------------*/
 	.aboutus-main{
 		width: 100%;
-		background: white;
 	}
 	.aboutus-main-h1{
 		margin: 0 auto;
 		margin-top: 2%;
 		width: 90%;
 		height: 6%;
-		background:lightgrey;
 	}
 	.aboutus-main-portrait{
-		margin: 0 auto;
+		margin-left:10%;
 		margin-top: 2%;
-		width: 60%;
-		height: 40%;
-		background: lightgrey;
+		width: 80%;
 	}
 	.aboutus-main-textarea{
 		margin: 0 auto;
 		margin-top: 2%;
 		width: 80%;
+		color: #FCFCFC;
 
-		background: grey;
 	}
 	.footer{
 		/*margin-top: 34%;*/
 		height: 10%;
 		width:100%;
 		margin-top: 2%;
-		background: black;
+		background: #1F1F1E;
+		border-top:4px solid #FCFCFC;
 	}
 }
