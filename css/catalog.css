@@ -186,8 +186,8 @@
 	}
 	.column-item-toggle{
 		margin:0 auto;
-		width: 50%;
-		height:100%;
+		width: 7vh;
+		height:7vh;
 		border-radius:0.5em;
 		border:1px solid lightgrey;
 		background: white;

@@ -7,9 +7,11 @@ transition: .5s ease-in-out; /* добавим плавность переход
 a {
 	text-decoration: none;
 	outline: none;
+	color: #FCFCFC;
+	font-weight: bold;
 }
 body{
-	background: black;
+	background: #130808;
 }
 @media screen and (min-width: 760px){
 
@@ -27,13 +29,15 @@ body{
 	}
 	.header{
 		height: 20%;
-		background: black;
+		background: #1F1F1E;
+		border-bottom:4px solid #FCFCFC;
+		color: #FCFCFC;
 	}
 	.header-logo{
 		float: left;
 		width: 20%;
 		height: 100%;
-		background: grey;
+		background: #1F1F1E;
 
 	}
 	.header-cart-logo-mobile{
@@ -47,22 +51,24 @@ body{
 		width: 30%;
 		height: 100%;
 		float: right;
-		background: grey;
+		background: #1F1F1E;
 	}
 
 	.header-menu-button{
 		float: left;
 		top:5%;
-		border-left: 1px solid black;
+/*		border-left: 2px solid #FCFCFC;*/
 		width: 20%;
 		height: 30%;
-		background-color: lightgrey;
+		background-color: #1F1F1E;
 		color: white;
 		font-weight: bold;
 		text-align: center;
 		vertical-align: middle;
 	}
-
+	.header-menu-button:hover{
+		background: #717171;
+	}
 	.main-div{
 		width: 50%;
 		height: 30%;
@@ -131,28 +137,29 @@ body{
 	/*О НАС--------------------------------*/
 	.aboutus-main{
 		width: 100%;
-		background: white;
+
 	}
 	.aboutus-main-h1{
 		margin: 0 auto;
 		margin-top: 1%;
-		width: 40%;
+		width: 11%;
 		height: 10%;
-		background:lightgrey;
+		color:#FCFCFC;
 	}
 	.aboutus-main-portrait{
-		margin: 0 auto;
+		margin-left:20%;
 		margin-top: 1%;
 		width: 60%;
-		height: 60%;
+
 		background: lightgrey;
+
 	}
 	.aboutus-main-textarea{
 		margin: 0 auto;
 		margin-top: 1%;
 		width: 80%;
-		height: 80%;
-		background: grey;
+		color: #FCFCFC;
+
 		
 	}
 }
